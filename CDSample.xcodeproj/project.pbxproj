@@ -14,6 +14,11 @@
 		C698A9E52CB9FF6A00FCDC74 /* CDSample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C698A9E32CB9FF6A00FCDC74 /* CDSample.xcdatamodeld */; };
 		C698A9E72CB9FF6B00FCDC74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C698A9E62CB9FF6B00FCDC74 /* Assets.xcassets */; };
 		C698A9EA2CB9FF6B00FCDC74 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C698A9E92CB9FF6B00FCDC74 /* Base */; };
+		C698A9FB2CBA06A100FCDC74 /* Persona+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C698A9F92CBA06A100FCDC74 /* Persona+CoreDataClass.swift */; };
+		C698A9FC2CBA06A100FCDC74 /* Persona+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C698A9FA2CBA06A100FCDC74 /* Persona+CoreDataProperties.swift */; };
+		C698A9FE2CBA07AD00FCDC74 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C698A9FD2CBA07AD00FCDC74 /* RegisterViewController.swift */; };
+		C698AA002CBA0BC700FCDC74 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C698A9FF2CBA0BC700FCDC74 /* Utils.swift */; };
+		C698AA022CBA125900FCDC74 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C698AA012CBA125900FCDC74 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		C698A9E62CB9FF6B00FCDC74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C698A9E92CB9FF6B00FCDC74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C698A9EB2CB9FF6B00FCDC74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C698A9F92CBA06A100FCDC74 /* Persona+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Persona+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C698A9FA2CBA06A100FCDC74 /* Persona+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Persona+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C698A9FD2CBA07AD00FCDC74 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		C698A9FF2CBA0BC700FCDC74 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		C698AA012CBA125900FCDC74 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +68,19 @@
 		C698A9D92CB9FF6A00FCDC74 /* CDSample */ = {
 			isa = PBXGroup;
 			children = (
+				C698A9F92CBA06A100FCDC74 /* Persona+CoreDataClass.swift */,
+				C698A9FA2CBA06A100FCDC74 /* Persona+CoreDataProperties.swift */,
+				C698A9FD2CBA07AD00FCDC74 /* RegisterViewController.swift */,
 				C698A9DA2CB9FF6A00FCDC74 /* AppDelegate.swift */,
 				C698A9DC2CB9FF6A00FCDC74 /* SceneDelegate.swift */,
 				C698A9DE2CB9FF6A00FCDC74 /* ViewController.swift */,
+				C698A9FF2CBA0BC700FCDC74 /* Utils.swift */,
 				C698A9E02CB9FF6A00FCDC74 /* Main.storyboard */,
 				C698A9E62CB9FF6B00FCDC74 /* Assets.xcassets */,
 				C698A9E82CB9FF6B00FCDC74 /* LaunchScreen.storyboard */,
 				C698A9EB2CB9FF6B00FCDC74 /* Info.plist */,
 				C698A9E32CB9FF6A00FCDC74 /* CDSample.xcdatamodeld */,
+				C698AA012CBA125900FCDC74 /* TableViewController.swift */,
 			);
 			path = CDSample;
 			sourceTree = "<group>";
@@ -143,8 +158,13 @@
 			files = (
 				C698A9DF2CB9FF6A00FCDC74 /* ViewController.swift in Sources */,
 				C698A9DB2CB9FF6A00FCDC74 /* AppDelegate.swift in Sources */,
+				C698A9FE2CBA07AD00FCDC74 /* RegisterViewController.swift in Sources */,
+				C698A9FB2CBA06A100FCDC74 /* Persona+CoreDataClass.swift in Sources */,
+				C698A9FC2CBA06A100FCDC74 /* Persona+CoreDataProperties.swift in Sources */,
 				C698A9E52CB9FF6A00FCDC74 /* CDSample.xcdatamodeld in Sources */,
 				C698A9DD2CB9FF6A00FCDC74 /* SceneDelegate.swift in Sources */,
+				C698AA022CBA125900FCDC74 /* TableViewController.swift in Sources */,
+				C698AA002CBA0BC700FCDC74 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
